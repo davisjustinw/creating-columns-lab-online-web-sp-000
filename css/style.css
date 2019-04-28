@@ -56,27 +56,6 @@ img:hover {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.galaxy {
-  grid-column-start: 2;
-  grid-column-end: 4; 
-  grid-row-start: 1; 
-  grid-row-end: 3;
-}
-
-.porkchop {
-  grid-column-start: 1;
-  grid-column-end: 3; 
-  grid-row-start: 1; 
-  grid-row-end: 3;
-}
-
-.prosciutto {
-  grid-column-start: 1;
-  grid-column-end: 4; 
-  grid-row-start: 1; 
-  grid-row-end: 4;
-}
-
 .small {
   grid-area: span 1 / span 1;
 }
