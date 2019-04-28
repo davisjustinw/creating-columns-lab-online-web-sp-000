@@ -46,6 +46,48 @@ img:hover {
   background-color: #dd4444;
 }
 
+
+
+.column {
+  box-sizing: border-box;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.galaxy {
+  grid-column-start: 2;
+  grid-column-end: 4; 
+  grid-row-start: 1; 
+  grid-row-end: 3;
+}
+
+.porkchop {
+  grid-column-start: 1;
+  grid-column-end: 3; 
+  grid-row-start: 1; 
+  grid-row-end: 3;
+}
+
+.prosciutto {
+  grid-column-start: 1;
+  grid-column-end: 4; 
+  grid-row-start: 1; 
+  grid-row-end: 4;
+}
+
+.small {
+  width: 100%;
+}
+
+.med {
+  width: 100%;
+}
+
+.large{
+  width: 100%;
+}
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
